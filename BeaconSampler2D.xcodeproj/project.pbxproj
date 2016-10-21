@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EC56F1A1DB491660061B868 /* HLPPoint3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC56F111DB491660061B868 /* HLPPoint3D.m */; };
+		7EC56F1B1DB491660061B868 /* HLPReferencePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC56F131DB491660061B868 /* HLPReferencePoint.m */; };
+		7EC56F1C1DB491660061B868 /* HLPBeaconSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC56F151DB491660061B868 /* HLPBeaconSample.m */; };
+		7EC56F1D1DB491660061B868 /* HLPBeaconSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC56F171DB491660061B868 /* HLPBeaconSampler.m */; };
+		7EC56F1E1DB491660061B868 /* HLPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC56F191DB491660061B868 /* HLPUtil.m */; };
+		7ED3E3291C75430800529C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3E3281C75430800529C89 /* main.m */; };
+		7ED3E32C1C75430800529C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3E32B1C75430800529C89 /* AppDelegate.m */; };
+		7ED3E3321C75430800529C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED3E3301C75430800529C89 /* Main.storyboard */; };
+		7ED3E3341C75430800529C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED3E3331C75430800529C89 /* Assets.xcassets */; };
+		7ED3E3371C75430800529C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED3E3351C75430800529C89 /* LaunchScreen.storyboard */; };
+		7ED3E3431C75441200529C89 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3E3421C75441200529C89 /* SettingViewController.m */; };
+		7ED3E3461C75442100529C89 /* BeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3E3451C75442100529C89 /* BeaconViewController.m */; };
+		7ED3E34D1C75449600529C89 /* TabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3E34C1C75449600529C89 /* TabController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EC56F101DB491660061B868 /* HLPPoint3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPPoint3D.h; sourceTree = "<group>"; };
+		7EC56F111DB491660061B868 /* HLPPoint3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPPoint3D.m; sourceTree = "<group>"; };
+		7EC56F121DB491660061B868 /* HLPReferencePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPReferencePoint.h; sourceTree = "<group>"; };
+		7EC56F131DB491660061B868 /* HLPReferencePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPReferencePoint.m; sourceTree = "<group>"; };
+		7EC56F141DB491660061B868 /* HLPBeaconSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPBeaconSample.h; sourceTree = "<group>"; };
+		7EC56F151DB491660061B868 /* HLPBeaconSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPBeaconSample.m; sourceTree = "<group>"; };
+		7EC56F161DB491660061B868 /* HLPBeaconSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPBeaconSampler.h; sourceTree = "<group>"; };
+		7EC56F171DB491660061B868 /* HLPBeaconSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPBeaconSampler.m; sourceTree = "<group>"; };
+		7EC56F181DB491660061B868 /* HLPUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPUtil.h; sourceTree = "<group>"; };
+		7EC56F191DB491660061B868 /* HLPUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPUtil.m; sourceTree = "<group>"; };
+		7ED3E3241C75430800529C89 /* BeaconSampler2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconSampler2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED3E3281C75430800529C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ED3E32A1C75430800529C89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ED3E32B1C75430800529C89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ED3E3311C75430800529C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ED3E3331C75430800529C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ED3E3361C75430800529C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ED3E3381C75430800529C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED3E3411C75441200529C89 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		7ED3E3421C75441200529C89 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		7ED3E3441C75442100529C89 /* BeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconViewController.h; sourceTree = "<group>"; };
+		7ED3E3451C75442100529C89 /* BeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconViewController.m; sourceTree = "<group>"; };
+		7ED3E34B1C75449600529C89 /* TabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabController.h; sourceTree = "<group>"; };
+		7ED3E34C1C75449600529C89 /* TabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ED3E3211C75430800529C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EC56F0F1DB491280061B868 /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				7EC56F101DB491660061B868 /* HLPPoint3D.h */,
+				7EC56F111DB491660061B868 /* HLPPoint3D.m */,
+				7EC56F121DB491660061B868 /* HLPReferencePoint.h */,
+				7EC56F131DB491660061B868 /* HLPReferencePoint.m */,
+				7EC56F141DB491660061B868 /* HLPBeaconSample.h */,
+				7EC56F151DB491660061B868 /* HLPBeaconSample.m */,
+				7EC56F161DB491660061B868 /* HLPBeaconSampler.h */,
+				7EC56F171DB491660061B868 /* HLPBeaconSampler.m */,
+				7EC56F181DB491660061B868 /* HLPUtil.h */,
+				7EC56F191DB491660061B868 /* HLPUtil.m */,
+			);
+			name = Beacon;
+			sourceTree = "<group>";
+		};
+		7ED3E31B1C75430800529C89 = {
+			isa = PBXGroup;
+			children = (
+				7ED3E3261C75430800529C89 /* BeaconSampler2D */,
+				7ED3E3251C75430800529C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED3E3251C75430800529C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ED3E3241C75430800529C89 /* BeaconSampler2D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ED3E3261C75430800529C89 /* BeaconSampler2D */ = {
+			isa = PBXGroup;
+			children = (
+				7EC56F0F1DB491280061B868 /* Beacon */,
+				7ED3E32A1C75430800529C89 /* AppDelegate.h */,
+				7ED3E32B1C75430800529C89 /* AppDelegate.m */,
+				7ED3E3441C75442100529C89 /* BeaconViewController.h */,
+				7ED3E3451C75442100529C89 /* BeaconViewController.m */,
+				7ED3E3411C75441200529C89 /* SettingViewController.h */,
+				7ED3E3421C75441200529C89 /* SettingViewController.m */,
+				7ED3E34B1C75449600529C89 /* TabController.h */,
+				7ED3E34C1C75449600529C89 /* TabController.m */,
+				7ED3E3301C75430800529C89 /* Main.storyboard */,
+				7ED3E3331C75430800529C89 /* Assets.xcassets */,
+				7ED3E3351C75430800529C89 /* LaunchScreen.storyboard */,
+				7ED3E3381C75430800529C89 /* Info.plist */,
+				7ED3E3271C75430800529C89 /* Supporting Files */,
+			);
+			path = BeaconSampler2D;
+			sourceTree = "<group>";
+		};
+		7ED3E3271C75430800529C89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ED3E3281C75430800529C89 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ED3E3231C75430800529C89 /* BeaconSampler2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED3E33B1C75430800529C89 /* Build configuration list for PBXNativeTarget "BeaconSampler2D" */;
+			buildPhases = (
+				7ED3E3201C75430800529C89 /* Sources */,
+				7ED3E3211C75430800529C89 /* Frameworks */,
+				7ED3E3221C75430800529C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconSampler2D;
+			productName = DataSampler2D;
+			productReference = 7ED3E3241C75430800529C89 /* BeaconSampler2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ED3E31C1C75430800529C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Daisuke Sato";
+				TargetAttributes = {
+					7ED3E3231C75430800529C89 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = BTRUYQH8DG;
+					};
+				};
+			};
+			buildConfigurationList = 7ED3E31F1C75430800529C89 /* Build configuration list for PBXProject "BeaconSampler2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ED3E31B1C75430800529C89;
+			productRefGroup = 7ED3E3251C75430800529C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ED3E3231C75430800529C89 /* BeaconSampler2D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ED3E3221C75430800529C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED3E3371C75430800529C89 /* LaunchScreen.storyboard in Resources */,
+				7ED3E3341C75430800529C89 /* Assets.xcassets in Resources */,
+				7ED3E3321C75430800529C89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ED3E3201C75430800529C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC56F1B1DB491660061B868 /* HLPReferencePoint.m in Sources */,
+				7ED3E34D1C75449600529C89 /* TabController.m in Sources */,
+				7EC56F1A1DB491660061B868 /* HLPPoint3D.m in Sources */,
+				7ED3E32C1C75430800529C89 /* AppDelegate.m in Sources */,
+				7ED3E3291C75430800529C89 /* main.m in Sources */,
+				7ED3E3461C75442100529C89 /* BeaconViewController.m in Sources */,
+				7ED3E3431C75441200529C89 /* SettingViewController.m in Sources */,
+				7EC56F1C1DB491660061B868 /* HLPBeaconSample.m in Sources */,
+				7EC56F1D1DB491660061B868 /* HLPBeaconSampler.m in Sources */,
+				7EC56F1E1DB491660061B868 /* HLPUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7ED3E3301C75430800529C89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ED3E3311C75430800529C89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ED3E3351C75430800529C89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ED3E3361C75430800529C89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ED3E3391C75430800529C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ED3E33A1C75430800529C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ED3E33C1C75430800529C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BTRUYQH8DG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BeaconSampler2D/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hulop.BeaconsSampler2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7ED3E33D1C75430800529C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BTRUYQH8DG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BeaconSampler2D/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hulop.BeaconsSampler2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ED3E31F1C75430800529C89 /* Build configuration list for PBXProject "BeaconSampler2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED3E3391C75430800529C89 /* Debug */,
+				7ED3E33A1C75430800529C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED3E33B1C75430800529C89 /* Build configuration list for PBXNativeTarget "BeaconSampler2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED3E33C1C75430800529C89 /* Debug */,
+				7ED3E33D1C75430800529C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ED3E31C1C75430800529C89 /* Project object */;
+}
