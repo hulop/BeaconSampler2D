@@ -41,4 +41,13 @@ for sampling
 * Start sampling and rotate at the point (1-2 around in 30 seconds)
  * for better accuracy for walking from every direction
 
+----
+## About
+[About HULOP](https://github.com/hulop/00Readme)
 
+
+## License
+[MIT](http://opensource.org/licenses/MIT)
+
+## README
+This Human Scale Localization Platform library is intended solely for use with an Apple iOS product and intended to be used in conjunction with officially licensed Apple development tools and further customized and distributed under the terms and conditions of your licensed Apple developer program.
